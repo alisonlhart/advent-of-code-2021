@@ -20,6 +20,7 @@ horizontal_pos = 0
 aim = 0
 
 
+
 with open("../inputs/input_day2.txt") as file:
     for line in file:
         direction_position = line.split(' ')
