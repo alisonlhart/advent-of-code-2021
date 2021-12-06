@@ -27,7 +27,7 @@ def comparison(current, previous) -> int:
 
 
 
-with open("../inputs/input.txt") as file:
+with open("../inputs/input_day1.txt") as file:
     for value in file:
         value=value.strip()
         value=int(value)
